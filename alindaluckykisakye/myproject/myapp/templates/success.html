@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .congratulations-container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .congratulations-box {
+            background-color: #5ebfb8; /* This color is close to the brand teal used previously */
+            border-radius: 10px;
+            padding: 60px 40px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .congratulations-box h1 {
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .congratulations-box p {
+            color: white;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            font-weight: normal;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .congratulations-box {
+                padding: 40px 30px;
+            }
+            
+            .congratulations-box h1 {
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            
+            .congratulations-box p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .congratulations-box {
+                padding: 30px 20px;
+            }
+            
+            .congratulations-box h1 {
+                font-size: 1.3rem;
+            }
+            
+            .congratulations-box p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="congratulations-container">
+        <div class="congratulations-box">
+            <h1>CONGRATULATIONS!</h1>
+            <p>You have successfully signed into the Refactory system. Feel at home</p>
+        </div>
+    </div>
+</body>
+</html>
